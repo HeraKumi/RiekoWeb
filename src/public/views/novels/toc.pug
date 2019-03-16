@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+  .page-header
+    h1 #{title}
+  .article
+    each i in chapter
+      p #{i._id} - #[a(href=`${url}/chapter-${i._id}`) #{i.title}]

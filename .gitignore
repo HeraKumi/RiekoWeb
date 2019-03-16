@@ -1,0 +1,10 @@
+# Folders to ignore
+node_modules
+.vscode
+dist/*
+storage
+.env
+src/bot/commands/guild
+src/bot/database
+# Files to ignore
+src/bot/config/settings.json
